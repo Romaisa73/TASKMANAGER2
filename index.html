@@ -1,23 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First App</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Generator</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
-        <h1>My First App</h1>
 
-        <input type="text" id="nameInput" placeholder="Enter your name" />
+    <main class="container">
 
-        <p id="message"></p>
+        <h1>Idea Generator</h1>
+        <input
+            type="text"
+            id="ideaInput"
+            placeholder="Enter your idea"
+        >
 
-        <button id="helloButton">Submit</button>
+        <button id="addIdeaBtn">
+            Add Idea
+        </button>
+        <p id="errorMessage"></p>
+        <div id="ideaList"></div>
+        <button id="clearAllBtn">
+            Clear All
+        </button>
     </main>
+    <script src="app.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
