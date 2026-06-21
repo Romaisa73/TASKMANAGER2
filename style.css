@@ -1,19 +1,35 @@
 body {
-font-family: Arial, sans-serif;
-min-height: 100vh;
-margin: 0;
-display: grid;
-place-items: center;
-background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
-main {
-padding: 40px;
-text-align: center;
-background: white;
-border-radius: 12px;
+
+.container {
+    max-width: 600px;
+    margin: auto;
 }
+
+#ideaInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 button {
-padding: 10px 20px;
-font-size: 16px;
-cursor: pointer;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.idea-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    border: 1px solid #ccc;
+}
+
+#errorMessage {
+    color: red;
 }
