@@ -8,6 +8,10 @@ body {
     margin: auto;
 }
 
+h1 {
+    margin-bottom: 1rem;
+}
+
 #ideaInput {
     width: 100%;
     padding: 10px;
